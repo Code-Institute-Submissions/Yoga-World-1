@@ -1,0 +1,246 @@
+#title-one {
+    letter-spacing: 4px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top: 30px;
+    margin-left: 600px;
+    text-align: center;
+    position: absolute;
+    color: rgb(0, 0, 0, .7);
+    
+
+    
+  }
+  #header-one {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 440px;
+    
+    
+    
+   
+    
+    
+  }
+  .center {
+    height: 105%;
+    width: 100%;
+    margin-top: -15px;
+    margin-left: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+   
+  
+    
+  }
+  
+  .picture-two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 103%;
+    width: 100%;
+    filter: blur(5px);
+    
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+    margin-top: -15px;
+    
+    
+  }
+  
+  #block{ 
+    display: inline-block;
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 560px;
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgba(179, 180, 176, 0.3);
+  
+    
+    
+    
+     }
+  
+  #header-one li { 
+    float: left;
+    list-style-type: none;
+    margin: 30px;
+
+   
+
+    
+    
+
+  }
+  #header-one a {
+    text-decoration: none;
+    color:rgb(0, 0, 0, .5);
+    
+    
+    
+   
+    
+  }
+  #header-one a:hover {
+    border-bottom: 2px solid black;
+  }
+  
+  
+  * {
+    margin: 5px;
+  }
+  .first-page {
+    margin-left: 800px;
+    margin-top: 150px;
+    
+    
+  }
+  
+  #Inspire {
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    float: left;
+    margin-top: -700px;
+    margin-left: 100px;
+    position: absolute;
+    color: rgb(0, 0, 0, .5);
+
+  }
+  #Inspire-p {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+  
+    float: left;
+    margin-top: -660px;
+    margin-left: 100px;
+    width: 400px;
+    color: rgb(0, 0, 0, .5);
+    
+    
+    
+  
+    position: absolute;
+  }
+  
+  .phone {
+    font-weight: bold;
+  }
+  
+  .email {
+    font-weight: bold;
+  }
+  
+  #Weekday {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  #Account a{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+  
+#email-field {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  
+  
+}
+
+#password {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+
+}
+#sign { 
+  display: block;
+  margin-left: 155px;
+  margin-top: 30px;
+  font-size: 40px;
+  color: rgb(0, 0, 0, .7);
+  
+  
+ 
+  
+}
+#register {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .7);
+}
+   
+#Social a{
+  list-style: none;
+  font-size: 100px;
+  margin-left: 300px;
+  margin-top: -10px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: black;
+  display: inline-block;
+  
+  
+  
+  
+  
+  
+
+}
+
+#Social a:hover {
+  color: burlywood;
+  border: 2px solid burlywood;
+  transition: 0.5s;
+  background-color: rgb(14, 13, 13, .6)
+  
+
+
+
+
+}
+#Social {
+display: block;
+background-color: rgb(235, 235, 217);
+width: 1518px;
+height: 60px;
+padding: 30px;
+margin-left: -10px;
+margin-bottom: -30px;
+}
+    
