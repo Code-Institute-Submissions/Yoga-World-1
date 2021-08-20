@@ -17,18 +17,7 @@
     text-align:center;
     margin-top: -30px;
     
-
-  
-  
-   
   }
-    
-
-    
-    
-    
-   
-    
     
   
   #hero-image {
@@ -420,7 +409,7 @@ text-decoration: underline;
 #Paragraph-two {
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
-  width: 1000px;
+  width: 100%;
   margin: auto;
  
  
@@ -461,32 +450,50 @@ text-decoration: underline;
 
  #Dots {
    font-size: 20px;
-   width: 300px;
+   width: 50%;
    font-family:'Courier New', Courier, monospace;
-   margin: auto;
-   margin-left: 400px;
+   margin: left;
+   padding-top: 12%;
+   padding-left: 20%;
+  
    
  }
  
+ .img-auto {
+  width: 80%;
+  height: auto;
+  padding-top: -20%;
+  padding-right: 30%;
+  
+}
  #Meditation-img {
-  height: 500px;
-  width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: 250px;
-  margin-top: -550px;
-  margin-bottom: 40px;
-  float:right;
+  height: auto;
+  width: 30%;
+  
+  
 
   
   
-  
-  
- 
+
  }
 
- #Benefits {
+ .halfscreen {
+  width: 50%;
 
+ }
+
+ .contentcontainer {
+   display: flex;
+   width: 100%;
+ }
+
+
+ .headercontainer {
+   display: flex;
+   width: 100%;
+ }
+
+ #Benefits { 
    font-size: 23px;
    text-align: center;
   
