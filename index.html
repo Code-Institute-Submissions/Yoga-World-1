@@ -29,8 +29,8 @@
               <li id="Contactone">
                 <a href="contact.html">Contact</a>
               </li>
-              <li id="Socialone">
-                <a href="#Social">Social</a>
+              <li id="Session">
+                <a href="#yoga-session">Session</a>
               </li>
               <li id="Galleryone">
                <a href="gallery.html">Gallery</a>
@@ -130,8 +130,6 @@
 
 <div>
   <h3 id="yoga-session">yoga Session</h3>
-  <h3 id="Book-time">Book a time!</h3>
-  <h3 id="Money">20 € per session</h3>
 </div>
 
 
@@ -154,29 +152,33 @@
 
     <div>
       <label for="full_name"></label>
-      <input id="full_name1" type="full_name" name="full_name" placeholder="full_name" required> 
+      <input id="full_name1" type="full_name" name="full_name" placeholder="Full Name" required> 
     </div> 
-    <h3>Pick your session</h3>
+    <h3 class="Session-title">Pick your session</h3>
+     <div class="Radio">
     <div>
-      <label for="#">Mobility & FLexibility</label>
-      <input id="#" type="radio" name="email_address" placeholder="Email" required>
+      <label for="Mobility">Mobility & FLexibility ( 15€ )</label>
+      <input id="Mobility" type="radio" name="Exercise" value="Mobility">
     </div>
       
     <div>
-      <label for="#">Standard Yoga</label>
-      <input id="#" type="radio" name="session" value="session"required> 
+      <label for="Standard">Standard Yoga ( 20€ )</label>
+      <input id="Standard" type="radio" name="Exercise" value="Standard">
     </div> 
+    
     <div>
-      <label for="#">Mind & body</label>
-      <input id="#" type="radio" name="full_name" required> 
+      <label for="Mind">Mind & body ( 25 € )</label>
+      <input id="Mind" type="radio" name="Exercise" value="Mind"> 
     </div> 
-      <div>
-        <label for="Duration">Duration</label>
+  </div>
+  
+      <div class="Duration">
+        <label for="Duration">Date & Time</label><br>
         <select name="Duration" id="Duration">
-        <option value="30 miniutes">30 mins</option>
-        <option value="45 miniutes">45 mins</option>
-        <option value="60 miniutes">60 mins</option>
-        <option value="75 miniutes">75 mins</option>
+        <option value="30 miniutes">Monday 17:30-18:15</option>
+        <option value="45 miniutes">Wedensday 17:30-18:15</option>
+        <option value="60 miniutes">Friday 15:30-16:15</option>
+        <option value="75 miniutes">Sunday 12:00-12:45</option>
       </select>
       </div>
     <div>
@@ -185,7 +187,7 @@
       <input id="register1" type="submit" value="submit">
     
     </div>
-    
+
   </div>
   
   
