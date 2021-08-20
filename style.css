@@ -312,13 +312,7 @@ height: 14%;
   
   
 }
-#Address {
 
-}
-
-#Contact {
- 
-}
 
 #Img3 {
   height: 400px;
@@ -605,5 +599,5 @@ text-decoration: underline;
     height: 40px;
     width: 200px;
     text-align: center;
-    background-color: rgba(10, 10, 10, 0.4);
+    background-color: rgba(10, 10, 10, .6);
   }
