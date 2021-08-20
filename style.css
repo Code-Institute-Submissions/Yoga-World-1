@@ -1,42 +1,43 @@
-#title-one {
+.title-one {
     letter-spacing: 4px;
     font-size: 50px;
     text-transform: uppercase;
-    text-align:center;
-    margin-top: 30px;
-    margin-left: 650px;
-    text-align: center;
-    position: absolute;
     color: rgb(0, 0, 0, .7);
+    text-align:center;
+
+  }
+
+  .title-two {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .header-one {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-align:center;
+    margin-top: -30px;
+
+  
+  
+   
+  }
     
 
     
-  }
-  #header-one {
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    position: absolute;
-    margin-top: 60px;
-    margin-left: 400px;
-    
     
     
    
     
     
-  }
-  .center {
-    height: 105%;
-    width: 100%;
-    margin-top: -15px;
-    margin-left: 450px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-   
   
+  #hero-image {
+    background: url('https://images.pexels.com/photos/5012071/pexels-photo-5012071.jpeg?cs=srgb&dl=pexels-anna-shvets-5012071.jpg&fm=jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: -35px;
+   
+    
     
   }
   
@@ -52,16 +53,14 @@
   body, html {
     height: 100%;
     margin: 0;
-    margin-top: -15px;
+  
+  
     
     
   }
   
   #block{ 
     display: inline-block;
-    position: absolute;
-    margin-top: -630px;
-    margin-left: 560px;
     background-color: white;
     height: 350px;
     width: 500px;
@@ -75,10 +74,18 @@
     
      }
   
-  #header-one li { 
+  .header-one li { 
     float: left;
     list-style-type: none;
-    margin: 30px;
+    position: relative;
+    left: 32%;
+    padding: 1%;
+
+
+    
+   
+    
+   
 
    
 
@@ -86,9 +93,11 @@
     
 
   }
-  #header-one a {
+  .header-one a {
     text-decoration: none;
     color:rgb(0, 0, 0, .5);
+    
+    
     
     
     
@@ -101,11 +110,14 @@
   
   
   * {
-    margin: 5px;
+   
   }
-  .first-page {
+  .first-page  { 
     margin-left: 800px;
     margin-top: 150px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 150px;
     
     
   }
@@ -114,28 +126,24 @@
     font-size: 200%;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
-    float: left;
-    margin-top: -700px;
-    margin-left: 100px;
-    position: absolute;
+    
     color: rgb(0, 0, 0, .5);
+    
+    
 
   }
   #Inspire-p {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
-  
-    float: left;
-    margin-top: -660px;
-    margin-left: 100px;
+
     width: 400px;
     color: rgb(0, 0, 0, .5);
     
     
     
   
-    position: absolute;
+  
   }
   
   .phone {
@@ -205,10 +213,6 @@
    
 #Social a{
   list-style: none;
-  font-size: 100px;
-  margin-left: 320px;
-  margin-top: -10px;
-  padding: 20px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 30%;
   color: rgb(255, 255, 255);
@@ -222,13 +226,9 @@
 #Social {
 display: block;
 background-color: rgb(0, 0, 0, .8);
-width: 1630px;
-height: 60px;
-padding: 30px;
-margin-left: -10px;
-margin-bottom: 200px;
-margin-top: 0px;
-position: absolute;
+width: 100%;
+
+
 
 
 
@@ -238,8 +238,7 @@ position: absolute;
 #Rights {
   color: rgb(255, 255, 255);
   position: absolute;
-  margin-left: 1500px;
-  margin-top: 60px;
+  
   
   
 
@@ -264,7 +263,7 @@ position: absolute;
  
 }
 #GalleryIntro{
- position: absolute;
+ 
   margin-top: 300px;
   text-align: center;
   margin-left: 380px;
@@ -282,33 +281,21 @@ position: absolute;
 #Logotwo {
   height: 100px;
   width: 100px;
-  position: absolute;
-  margin-top: -700px;
-  margin-left: 1500px;
+  
   
 }
-#List {
-  float: left;
-  font-size: 30px;
-  margin-left: 150px;
-  margin-top: 200px;
-  font-family: 'Courier New', Courier, monospace;
-}
+
 #h3-0 {
   text-align: center;
-  float: right;
-  margin-right:-10px;
-  margin-top: -150px;
   font-size: 50px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform:capitalize;
-  width: 1650px;
+  width: 100%;
   height: 60px;
   background-color: rgb(248, 221, 188, .4);
-  vertical-align: middle;
-  padding: 30px;
   letter-spacing: 3px;
   color:  rgb(0, 0, 0, .7);
+  margin-top: 0px;
 
 
   
@@ -318,47 +305,58 @@ position: absolute;
   
 }
 #Address {
-  margin-top: 1200px;
+
 }
 
 #Contact {
-  margin-top: 200px;
+ 
 }
 
 #Img3 {
   height: 400px;
   width: 600px;
-  float: right;
-  margin-right: 150px;
-  margin-top: 100px;
+  float:right;
   border-radius: 20%;
   border-style:solid;
   border-color: rgba(0, 0, 0, 0.664);
   
+ 
+ 
+  
   
 }
 
+#List {
+  float: left;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+ 
+
+}
+.list-img3 {
+  margin-left: 150px;
+}
 #Img4 {
-  height: 430px;
+  height: 400px;
   width: 600px;
   float: left;
-  margin-left: 150px;
-  margin-top: 170px;
   border-radius: 20%;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.664);
+  
  
 }
 
 #Listtwo {
   
   font-size: 30px;
-  margin-top: 200px;
   font-family: 'Courier New', Courier, monospace;
   float: right;
-  margin-right: 200px;
+  
 }
-
+.list-img4 {
+  margin-right: 150px;
+}
 #Booking a {
   text-decoration: none;
   font-size: 20px;
@@ -369,23 +367,19 @@ position: absolute;
   color: rgb(0, 0, 0);
   display: inline-block;
   background-color: rgb(248, 221, 188, .4);
-  position: absolute;
-  margin-top: 2830px;
-  margin-left: 180px;
   text-align: center;
   
 }
 
  #Contact {
-   margin-top: 258px;
+   
  }
 
 
 #Contact-text {
 
   font-size: 25px;
-  margin-bottom: 157px;
-  margin-left: 300px;
+
   
 
   
@@ -405,21 +399,19 @@ text-decoration: underline;
 }
 
 #Img-contact {
-  position: absolute;
+  
   height: 60%;
   width: 30%;
-  margin-top: 150px;
-  margin-left: 900px;
+
 }
 
 #Journey {
   font-size: 20px;
   font-family:'Courier New', Courier, monospace;
-  margin-top: 2750px;
-  margin-left: 490px;
+  
   width: 700px;
   text-align: center;
-  position: absolute;
+  
  
   
   
@@ -430,32 +422,23 @@ text-decoration: underline;
   font-family: 'Courier New', Courier, monospace;
   width: 1000px;
   text-align: center;
-  margin-left: 320px;
-  position: aboslute;
-  margin-top: 70px;
+ 
   
   
 }
 
-#Whatisyoga {
- margin-top: 1100px;
- position: absolute;
-}
+
 
 #Yoga-title {
   font-size: 50px;
   text-align: center;
-  position: absolute;
-  margin-top: -125px;
-  margin-left: 0px;
+ 
   background-color: bisque;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform:capitalize;
-  width: 1650px;
+  width: 100%;
   height: 60px;
   background-color: rgb(248, 221, 188, .4);
-  vertical-align: middle;
-  padding: 30px;
   letter-spacing: 3px;
   color:  rgb(0, 0, 0, .7);
 
@@ -464,18 +447,16 @@ text-decoration: underline;
 
  }
 #History {
-  position: absolute;
+
   font-size: 23px;
-  margin-left: 800px;
-  margin-top: 30px;
+ 
    }
 
 
  #Dots {
    font-size: 20px;
-   position: absolute;
-   margin-top: 1500px;
-   margin-left: 350px;
+  
+   
    width: 300px;
    position: absolute;
    font-family:'Courier New', Courier, monospace;
@@ -484,49 +465,45 @@ text-decoration: underline;
  #Meditation-img {
   height: 500px;
   width: 500px;
-  position: absolute;
-  margin-top: 1550px;
-  margin-left: 300px;
+  position: relative;
+  
+ 
  }
 
  #Benefits {
-   position: absolute;
+
    font-size: 23px;
-   margin-top: 1490px;
-   margin-left: 450px;
+   
  }
  
  #yoga-session {
   font-size: 50px;
   text-align: center;
-  position: absolute;
-  margin-top: 2150px;
-  margin-left: 0px;
+ 
+ 
+  
   background-color: bisque;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform:capitalize;
-  width: 1650px;
+  width: 100%;
   height: 60px;
   background-color: rgb(248, 221, 188, .4);
-  vertical-align: middle;
-  padding: 30px;
+ 
   letter-spacing: 3px;
   color:  rgb(0, 0, 0, .7);
  }
 
  #Book-time {
-   position: absolute;
-   margin-top: 2300px;
-   margin-left: 770px;
+   
+  
    font-size: 25px;
    font-family: 'Times New Roman', Times, serif;
   
  }
 
  #Money {
-  position: absolute;
-  margin-top: 2350px;
-  margin-left: 750px;
+ 
+  
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: underline;
