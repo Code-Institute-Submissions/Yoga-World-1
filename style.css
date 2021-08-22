@@ -1,3 +1,4 @@
+
 .title-one {
     letter-spacing: 4px;
     font-size: 50px;
@@ -111,11 +112,14 @@
     
   }
   
-  #Inspire {
-    font-size: 200%;
+  .Inspire-title {
+    font-size: 140%;
     font-family: Oswald, sans-serif;
     letter-spacing: 4px;
     color: rgb(0, 0, 0, .5);
+    text-decoration: underline;
+    text-align: center;
+
     
     
     
@@ -127,8 +131,12 @@
     letter-spacing: 4px;
     width: 50%;
     color: rgb(0, 0, 0, .5);
+    text-align: center;
     float: right;
-    margin-top: -5%;
+    margin-top: -250px;
+
+   
+
     
     
     
@@ -323,7 +331,8 @@ height: 14%;
 #List {
   text-align: center;
   font-size: 1.5rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Oswald, sans-serif;
+ 
  
 
 }
@@ -333,7 +342,8 @@ height: 14%;
 #Listtwo {
   text-align: center;
   font-size: 1.5rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Oswald, sans-serif;
+ 
   
   
 }
@@ -386,9 +396,9 @@ text-decoration: underline;
 
 #Paragraph-two {
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
   width: 100%;
   margin: auto;
+
  
  
   
@@ -400,7 +410,6 @@ text-decoration: underline;
 #Yoga-title {
   font-size: 50px;
   background-color: bisque;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-transform:capitalize;
   width: 100%;
   height: 60px;
@@ -417,19 +426,18 @@ text-decoration: underline;
  }
 
  
-#History {
-
+#History { 
   font-size: 23px;
   text-align: center;
   margin: auto;
+  
  
    }
 
 
  #Dots {
    font-size: 20px;
-   width: 50%;
-   font-family:'Courier New', Courier, monospace;
+   width: 200px;
    margin: left;
    padding-top: 12%;
    padding-left: 20%;
@@ -438,10 +446,12 @@ text-decoration: underline;
  }
  
  .img-auto {
-  width: 80%;
-  height: auto;
-  padding-top: -20%;
-  padding-right: 30%;
+  width: auto;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
   
 }
  #Meditation-img {
@@ -608,16 +618,9 @@ text-decoration: underline;
     }
      
     }
-    /*
-    @media screen and (max-width: 450px)  {
-      #Img3 {
-        margin-right: 100px;
-      }
-      #Img4 {
-        margin-right: 100px;
-      }
-    }
-    */
+    
+    
+    
 
   
     @media screen and (max-width: 750px)  {
@@ -630,5 +633,15 @@ text-decoration: underline;
        height: 300px;
        
      }
+     #Inspire-p {
+       margin-top: 30px;
+       padding-right: 90px;
+     }
+    }
 
+
+    @media screen and (max-width: 450px)  {
+      .img-auto {
+        width: 100%;
+      }
     }
