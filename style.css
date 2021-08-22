@@ -354,6 +354,7 @@ padding-right: 40px;
   text-align: center;
   font-size: 1.5rem;
   font-family: Oswald, sans-serif;
+  padding-right: 20px;
  
  
 
@@ -365,6 +366,8 @@ padding-right: 40px;
   text-align: center;
   font-size: 1.5rem;
   font-family: Oswald, sans-serif;
+  padding-right: 20px;
+  
  
   
   
@@ -463,6 +466,7 @@ text-decoration: underline;
  #Dots {
    font-size: 20px;
    text-align: center;
+   
    
   
    
@@ -688,7 +692,5 @@ text-decoration: underline;
     #block {
       width: 90%;
     }
-#Dots {
-  padding: 20px;
-}
+
   }
