@@ -398,6 +398,9 @@ text-decoration: underline;
   font-size: 20px;
   width: 100%;
   margin: auto;
+  text-align: center;
+  
+  
 
  
  
@@ -437,10 +440,8 @@ text-decoration: underline;
 
  #Dots {
    font-size: 20px;
-   width: 200px;
-   margin: left;
-   padding-top: 12%;
-   padding-left: 20%;
+   text-align: center;
+   
   
    
  }
