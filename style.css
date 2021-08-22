@@ -1,16 +1,18 @@
 
-.title-one {
+.title-one { 
     letter-spacing: 4px;
     font-size: 50px;
     text-transform: uppercase;
     color: rgb(0, 0, 0, .7);
     text-align:center;
     position: relative;
+    text-decoration: none;
+    list-style-type: none;
+
     
 
   }
-  .title-one 
-
+  
   .title-two {
     list-style-type: none;
     text-decoration: none;
@@ -59,7 +61,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 00px;
     background-color: white;
     height: 350px;
     width: 500px;
@@ -79,9 +81,9 @@
   #hero-image2 {
     background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2253&q=80') no-repeat center center;
     background-size:cover;
-    height: 100%;
+    height: 818px;
     width: 100%;
-    margin-top: 35px;
+    margin-top: -35px;
    
   }
   
@@ -189,7 +191,7 @@
 }
 #sign { 
   display: block;
-  margin-left: 155px;
+  text-align: center;
   margin-top: 30px;
   font-size: 40px;
   color: rgba(0, 0, 0, 0.7);
@@ -664,20 +666,29 @@ text-decoration: underline;
        margin-top: 30px;
        padding-right: 90px;
      }
+     
     }
-
+  
 
     @media screen and (max-width: 450px)  {
+
       .img-auto {
         width: 100%;
       }
       #block1 {
         width: 90%;
       }
+      
     }
+
     @media screen and (max-width: 550px) {
     #block1 {
       width: 90%;
     }
-
+    #block {
+      width: 90%;
+    }
+#Dots {
+  padding: 20px;
+}
   }
