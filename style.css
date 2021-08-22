@@ -28,7 +28,7 @@
   #hero-image {
     background: url('https://images.pexels.com/photos/5012071/pexels-photo-5012071.jpeg?cs=srgb&dl=pexels-anna-shvets-5012071.jpg&fm=jpg') no-repeat center center;
     background-size: cover;
-    height: 700px;
+    height: 900px;
     width: 100%;
     margin-top: -35px;
     position: relative;
@@ -88,7 +88,7 @@
   .header-one li { 
     list-style-type: none;
     padding: 1%;
-    
+  
    
     
     
@@ -133,7 +133,8 @@
     color: rgb(0, 0, 0, .5);
     text-align: center;
     float: right;
-    margin-top: -250px;
+    margin-top: -200px;
+    padding-right: 60px;
 
    
 
@@ -543,8 +544,8 @@ text-decoration: underline;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  height: 580px;
   width: 500px;
+  height: 580px;
   border-radius: 20px;
   border: 1px solid black;
   box-shadow: 10px 10px 10px black;
@@ -578,8 +579,7 @@ text-decoration: underline;
   
   }
   #sign1 { 
-    display: block;
-    margin-left: 155px;
+    text-align: center;
     margin-top: 30px;
     font-size: 40px;
     color: rgba(0, 0, 0, 0.7);
@@ -663,4 +663,13 @@ text-decoration: underline;
       .img-auto {
         width: 100%;
       }
+      #block1 {
+        width: 90%;
+      }
     }
+    @media screen and (max-width: 550px) {
+    #block1 {
+      width: 90%;
+    }
+
+  }
