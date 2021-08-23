@@ -8,33 +8,29 @@
     position: relative;
     text-decoration: none;
     list-style-type: none;
-
-    
-
   }
   
   .title-two {
     list-style-type: none;
     text-decoration: none;
   }
+
   .header-one {
     font-size: 1.5em;
     letter-spacing: 2px;
     padding-left: 1rem;
-    
-    
-    
   }
-    
+
   .header-one li { 
     list-style-type: none;
     padding: 1%;
-  
   }
+
   .header-one a {
     text-decoration: none;
     color:rgb(0, 0, 0, .5);    
   }
+
   #header-one a:hover {
     border-bottom: 2px solid black;
   }
@@ -46,9 +42,6 @@
     width: 100%;
     margin-top: -35px;
     position: relative;
-    
-    
-    
   }
   
   .picture-two {
@@ -58,15 +51,11 @@
     height: 103%;
     width: 100%;
     filter: blur(5px);
-    
   }
+
   body, html {
     height: 100%;
     margin: 0;
-  
-  
-    
-    
   }
   
   #block { 
@@ -81,13 +70,6 @@
     border: 1px solid black;
     box-shadow: 10px 10px 10px black;
     background-color: rgba(179, 180, 176, 0.3);
-
-  
-    
-    
-    
-    
-    
      }
 
   #hero-image2 {
@@ -96,25 +78,17 @@
     height: 100%;
     width: 100%;
     margin-top: -35px;
-   
   }
+
   #hero-image3 {
     background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2253&q=80') no-repeat center center;
     background-size:cover;
     height: 100%;
     width: 100%;
-  
-   
   }
   
-  
-  
- 
   .first-page  { 
     float: right;
-   
-    
-    
   }
   
   .Inspire-title {
@@ -124,12 +98,8 @@
     color: rgb(0, 0, 0, .5);
     text-decoration: underline;
     text-align: center;
-
-    
-    
-    
-
   }
+
   #Inspire-p {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -139,15 +109,7 @@
     text-align: center;
     float: right;
     margin-top: -200px;
-    padding-right: 60px;
-
-   
-
-    
-    
-    
-  
-  
+    padding-right: 60px;  
   }
   
   .phone {
@@ -162,6 +124,7 @@
     border: 1px solid black;
     padding: 8px;
   }
+
   #Account a{
     text-decoration: none;
     color: black;
@@ -177,8 +140,6 @@
   height: 40px;
   width: 300px;
   text-align: center;
-  
-  
 }
 
 #password {
@@ -190,19 +151,16 @@
   height: 40px;
   width: 300px;
   text-align: center;
-
 }
+
 #sign { 
   display: block;
   text-align: center;
   margin-top: 30px;
   font-size: 40px;
   color: rgba(0, 0, 0, 0.7);
-  
-  
- 
-  
 }
+
 #register {
   display: block;
   margin-left: auto;
@@ -221,23 +179,13 @@
   border-radius: 30%;
   color: rgb(255, 255, 255);
   display: inline-block;
-  
-  
- 
-
-  
-  
-  
- 
-  
-  
-
 }
 
 #Social a:hover {
   background-color: rgb(248, 221, 188, .8);
   
 }
+
 #Social {
 margin-top: 35px;
 display: flex;
@@ -245,12 +193,6 @@ background-color: rgb(0, 0, 0, .8);
 height: 14%;
 font-size: 30px;
 padding-right: 40px;
-  
-
-
-
-
-
 }
 
 .twitter {
@@ -262,19 +204,15 @@ padding-right: 40px;
   
 }
 
-
-
 #Icon {
   display: block;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
- 
 }    
 #Rights {
   color: rgb(255, 255, 255);
   position: absolute;
-
 }
 
 #gallery{
@@ -286,9 +224,8 @@ padding-right: 40px;
 
 #gallery img {
   width: 100%;
-  
- 
 }
+
 #GalleryIntro{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2em;
@@ -306,8 +243,6 @@ padding-right: 40px;
 #Logotwo {
   height: 100px;
   width: 100px;
-  
-  
 }
 
 #h3-0 {
@@ -321,15 +256,7 @@ padding-right: 40px;
   letter-spacing: 3px;
   color:  rgb(0, 0, 0, .7);
   margin-top: 0px;
-
-
-  
-  
-
-  
-  
 }
-
 
 #Img3 {
   height: 400px;
@@ -337,43 +264,28 @@ padding-right: 40px;
   border-radius: 20%;
   border-style:solid;
   border-color: rgba(0, 0, 0, 0.664);
-  
- 
-  
-  
 }
+
 #Img4 {
   height: 400px;
   width: 600px;
   border-radius: 20%;
   border-style:solid;
   border-color: rgba(0, 0, 0, 0.664);
-  
- 
-  
-  
 }
+
 #List {
   text-align: center;
   font-size: 1.5rem;
   font-family: Oswald, sans-serif;
   padding-right: 20px;
- 
- 
-
 }
-
-
 
 #Listtwo {
   text-align: center;
   font-size: 1.5rem;
   font-family: Oswald, sans-serif;
-  padding-right: 20px;
-  
- 
-  
-  
+  padding-right: 20px; 
 }
 
 #Booking a {
@@ -390,9 +302,6 @@ padding-right: 40px;
   
 }
 
- 
-
-
 #Contact-text {
   font-size: 25px;
   
@@ -401,15 +310,11 @@ padding-right: 40px;
  padding-top: 150px;
  text-align: center;
  padding-bottom: 107px;
-
- 
 }
 
 #h3-3 {
   font-size: 30px;
   text-decoration: underline;
-
-
 }
 
 #h3-4 {
@@ -428,22 +333,13 @@ text-decoration: underline;
   color:  rgb(0, 0, 0, .7);
   text-align: center;
   display: table;
-  
-
-  
-  
-
  }
 
- 
 #History { 
   font-size: 23px;
   text-align: center;
   margin: auto;
   padding: 25px;
-  
-  
- 
    }
 
    #Paragraph-two {
@@ -452,17 +348,11 @@ text-decoration: underline;
     margin: auto;
     text-align: center;
     padding-top: -20px;
-    
   }
   
-
  #Dots {
    font-size: 20px;
    text-align: center;
-   
-   
-  
-   
  }
  
  .img-auto {
@@ -471,18 +361,10 @@ text-decoration: underline;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
-  
 }
  #Meditation-img {
   height: auto;
   width: 30%;
-  
-  
-
-  
-  
-
  }
 
  .halfscreen {
@@ -505,10 +387,6 @@ text-decoration: underline;
    text-align: center;
    width: 100%; 
    font-size: 19px;
-   
-  
-   
-   
  }
  
  #yoga-session {
@@ -525,20 +403,14 @@ text-decoration: underline;
  }
 
  #Book-time {
-   
-  
    font-size: 25px;
    font-family: 'Times New Roman', Times, serif;
    text-align: center;
-  
  }
 
  #Money {
- 
-  
   font-size: 25px;
   text-align: center;
-
  }
 
  #block1 { 
@@ -552,9 +424,8 @@ text-decoration: underline;
   border: 1px solid black;
   box-shadow: 10px 10px 10px black;
   background-color: rgba(219, 177, 126, 0.2);
-  
-  
    }
+
    #block3 { 
     display: block;
     margin-left: auto;
@@ -567,15 +438,14 @@ text-decoration: underline;
     border: 1px solid black;
     box-shadow: 10px 10px 10px black;
     background-color: rgba(219, 177, 126, 0.2);
-   
-
-    
      }
+
   .goback {
       font-size: 30px;
       text-align: center;
       padding: 20px;
   }
+
    #email-field1 {
     display: block;
     margin-left: auto;
@@ -585,8 +455,6 @@ text-decoration: underline;
     height: 40px;
     width: 300px;
     text-align: center;
-    
-    
   }
   
   #full_name1 {
@@ -598,18 +466,15 @@ text-decoration: underline;
     height: 40px;
     width: 300px;
     text-align: center;
-  
   }
+
   #sign1 { 
     text-align: center;
     margin-top: 30px;
     font-size: 40px;
     color: rgba(0, 0, 0, 0.7);
-    
-    
-   
-    
   }
+
   #register1 {
     display: block;
     margin-left: auto;
@@ -621,11 +486,11 @@ text-decoration: underline;
     text-align: center;
     background-color: rgba(10, 10, 10, .6);
   }
+
   .Radio {
     text-align: center;
     font-size: larger;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
   }
 
   .Session-title {
@@ -669,13 +534,9 @@ text-decoration: underline;
     }
     #block3 {
       margin-top: 100px;
+     }
     }
-    }
     
-    
-    
-
-  
     @media screen and (max-width: 750px)  {
       #Img3 {
        width: 90%;
@@ -693,10 +554,8 @@ text-decoration: underline;
      #Dots {
       padding-left: 20px;
      }
-     
     }
   
-
     @media screen and (max-width: 450px)  {
 
       .img-auto {
@@ -705,7 +564,6 @@ text-decoration: underline;
       #block1 {
         width: 90%;
       }
-      
     }
 
     @media screen and (max-width: 550px) {
@@ -718,7 +576,6 @@ text-decoration: underline;
     #block3 {
       width: 90%;
     }
-
   }
 
   @media screen and (max-height: 750px) {
