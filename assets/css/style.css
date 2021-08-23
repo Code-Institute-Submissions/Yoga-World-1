@@ -417,30 +417,6 @@ font-size: 30px;
 text-decoration: underline;
 }
 
-
-
-
-
-
-#Paragraph-two {
-  font-size: 20px;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  
-
-  
-  
-  
-
- 
- 
-  
-  
-}
-
-
-
 #Yoga-title {
   font-size: 50px;
   background-color: bisque;
@@ -464,10 +440,21 @@ text-decoration: underline;
   font-size: 23px;
   text-align: center;
   margin: auto;
+  padding: 25px;
+  
   
  
    }
 
+   #Paragraph-two {
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: -20px;
+    
+  }
+  
 
  #Dots {
    font-size: 20px;
@@ -514,9 +501,11 @@ text-decoration: underline;
    width: 100%;
  }
 
- #Benefits { 
-   font-size: 23px;
+ .Benefits { 
    text-align: center;
+   width: 100%; 
+   font-size: 19px;
+   
   
    
    
@@ -702,7 +691,7 @@ text-decoration: underline;
        padding-right: 90px;
      }
      #Dots {
-       padding-left: 20px;
+      padding-left: 20px;
      }
      
     }
