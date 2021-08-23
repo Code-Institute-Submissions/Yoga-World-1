@@ -39,3 +39,28 @@ The gallery shows stunning yoga poses with beautiful backgrounds for inspiration
  Here the user can create and account by providing their email address and password.
  ![Screenshot 2021-08-23 at 12-15-50 Vegan World](https://user-images.githubusercontent.com/88830888/130433297-b4b4c0da-87c7-4729-9d49-6aabe29312d7.png)
 
+
+<h3> Testing <h3>
+ 
+  
+ <h3> Deployment </h3> 
+ 
+ HTML There were are few errors that i was unable to resovle in - W3C validator
+ CSS No errors were found when passing through the official - (Jigsaw) validator
+ <h3> Deployment </h3> 
+ 
+    The site was deployed to GitHub pages. The steps to deploy are as follows:
+        In the GitHub repository, navigate to the Settings tab
+        From the source section drop-down menu, select the Master Branch
+        Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://timcodeinsitute.github.io/Yoga-World/
+ 
+ <h3> Credits </h3> 
+ 
+ Content was inspired by code insitute project
+ Social media icons were inspired by a youtube video
+ 
+ Images: were taken from pexels and pixarpay ( free of use ) 
+ 
+
